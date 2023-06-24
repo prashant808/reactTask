@@ -1,0 +1,93 @@
+
+.BrainhubCarousel__arrows {
+  position: relative;
+  padding: 21px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  overflow: hidden;
+  outline: 0;
+  font-size: 0;
+  line-height: 0;
+  background-color: #7b59ff;
+}
+.BrainhubCarouselItem{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.Cards{
+  width: 100%;
+  background: #fafafa;
+  border: 1px solid #ededed;
+  border-radius: 8px;
+  padding: 10px;
+  /* margin: 10px; */
+}
+.Cardimg{
+  width: 100%;
+}
+.cardbody{
+  padding: 10px;
+  font-size: 12px;
+}
+.cardul{
+  color: #798692;
+  display: inline-flex;
+  font-size: 9px;
+  list-style-type: none;
+  margin-top: 30px;
+}
+.cardul li{
+  margin: 10px;
+}
+.cardul li:nth-child(2){
+  list-style: disc;
+}
+.round {
+  border-radius: 50%;
+  width: 50px;
+
+    height: 50px;
+  background-color: #316DF1;
+  transform: rotate(180deg);
+  border: 1px solid var(--unnamed-color-ffffff);
+  padding: 10px 10px;
+}
+.BrainhubCarousel__customArrows{
+  z-index: 10;
+}
+.round2 {
+  border-radius: 50%;
+  width: 50px;
+    height: 50px;
+  background-color: #316DF1;
+  /* transform: rotate(180deg); */
+  border: 1px solid var(--unnamed-color-ffffff);
+  padding: 10px 10px;
+}
+.dis{
+  visibility: hidden;
+}
+.position{
+  position: relative;
+}
+.blr{
+  position: absolute;
+  border-radius: 8px;
+    position: absolute;
+    z-index: 1;
+    background: transparent linear-gradient(90deg,#ffffff41,#fff) 0 0 no-repeat padding-box;
+    height: 300px;
+    right: 0%;
+    top: 0;
+    width: 300px;
+}
+
+@media only screen and (max-width : 1100px){
+  .blr{
+    display: none;
+  }
+}
